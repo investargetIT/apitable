@@ -144,7 +144,6 @@ const DatasheetMain = (props: IDatasheetMain) => {
           <ServerError />
         )}
       </div>
-      <SuspensionPanel shareId={shareId} datasheetId={datasheetId} />
       {(preview || testFunctions) && previewDstType !== PREVIEW_DATASHEET_BACKUP &&
           <Alert
             className={styles.previewing}

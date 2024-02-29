@@ -155,7 +155,7 @@ export const ShareMenu: React.FC<React.PropsWithChildren<IShareMenu>> = ({ share
 
   return (
     <div className={styles.shareMenu}>
-      <div className={styles.logo} onClick={enterSpace}>
+      <div className={styles.logo}>
         <Logo theme={ThemeName.Dark} size="large" type='SHARE_LOGO' />
       </div>
       <div className={styles.shareInfo}>
